@@ -1,0 +1,6 @@
+{
+    "host":"",
+    "user":"root",
+    "database":"groceries",
+    "password":"YOUR_DB_PASSWORD"
+}
