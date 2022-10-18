@@ -6,6 +6,5 @@ exports.handleError = (err, req, res, next) => {
   } else {
     res.status(500).send("Internal error 500");
   }
-
   next(err);
 };
