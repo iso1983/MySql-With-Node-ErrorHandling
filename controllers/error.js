@@ -1,6 +1,5 @@
 exports.handleError = (err, req, res, next) => {
 
-  console.log(err);
   if (err.statusCode == 404) {
     res.statusCode(404).send("Page not found");
   } else if (err.statusCode == 403) {
