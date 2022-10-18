@@ -1,5 +1,5 @@
 exports.handleError = (err, req, res, next) => {
-    console.log("sdfdsf");
+
   console.log(err);
   if (err.statusCode == 404) {
     res.statusCode(404).send("Page not found");
